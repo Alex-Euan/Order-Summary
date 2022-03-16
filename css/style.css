@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('../images/fondo.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+.pago {
+    width: 33%;
+    background: #fff;
+    margin: 35px auto;
+}
+
+.pago  img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.pago .main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.pago .main h1 {
+    margin-bottom: 30px;
+    color: #1f2f56;
+    font-size: 26px;
+    margin-top: 30px;
+}
+
+.pago .main p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #616c88;
+    width: 420px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.pago .main .plan {
+    display: flex;
+    justify-content: space-between;
+    background: #f5f7ff;
+}
+.pago .main .plan img {
+    width: 60px;
+}
+
+.pago .main .plan .costo {
+    display: flex;
+    width: 30%;
+}
